@@ -51,7 +51,8 @@ this.$axios.get('/test',params)
     .then(function(data){
         //成功后的回调
  }).catch(function(err){
-                
+  console.log(err)
+  })            
 ```
 
 ## 觉得有用的给个star吧
