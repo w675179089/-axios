@@ -45,4 +45,4 @@ let api = {};
 export default api
 ```
 
-## 觉得有用的给个start吧
+## 觉得有用的给个star吧
