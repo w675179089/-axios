@@ -44,5 +44,14 @@ let api = {};
   }
 export default api
 ```
+在vue调用
+```
+let params = {test:'test1'}
+this.$axios.get('/test',params)
+    .then(function(data){
+        //成功后的回调
+ }).catch(function(err){
+                
+```
 
 ## 觉得有用的给个star吧
