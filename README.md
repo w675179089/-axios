@@ -2,7 +2,6 @@
 封装vue axios跨域
 
 ```import axios from 'axios';
-// import qs from 'qs';
 let axiosIns = axios.create({});
 
 if (process.env.NODE_ENV == 'development'){
